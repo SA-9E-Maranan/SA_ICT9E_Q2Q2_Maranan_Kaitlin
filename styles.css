@@ -1,0 +1,65 @@
+        body {
+            background-image: url('bg.gif'); /* Correct syntax */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-repeat: no-repeat; /* Prevent tiling */
+            background-position: center; /* Center the image */
+        }
+        .header {
+            background-color: #7a83e6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            font-family: Pixelify Sans;
+            text-shadow: 2px 2px 4px darkslateblue ;
+        }
+        .content {
+            padding: 20px;
+            background-color: #d5d8f2; 
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0.9; /* Slight transparency */
+            font-family: Pixelify Sans;
+            color: darkslateblue;
+        }
+        .footer {
+            padding: 20px;
+            background-color: #d5d8f2; 
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0.9; /* Slight transparency */
+            font-family: Pixelify Sans;
+            color: darkslateblue;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            font-family: Quicksand;
+        }
+
+        #submit {
+            background-color: darkslateblue;
+            color: whitesmoke;
+        }
+
+        #options{
+            color: black;
+        }
+
+        #navbar {
+            padding: 10px;
+            background-color: #d5d8f2; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0.8;
+            font-family: Pixelify Sans;
+        }
+
+        #search {
+            background-color: darkslateblue;
+            color: white;
+        }
+
+        #searchtext {
+            background-color: white;
+        }
